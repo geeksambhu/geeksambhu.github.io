@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<article class="post">
+  <div class="post-content">
+    {{ content }}
+  </div>
+  <div class="tags">
+    {% for tag in page.tags %}
+      <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+  <div class="social-buttons">
+    {% include share-button.html %}
+  </div>
+</article>

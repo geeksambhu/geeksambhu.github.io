@@ -1,0 +1,39 @@
+<meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#157878">
+<meta name="keywords" content="{{ page.tags | join: ','}}" />
+
+<!-- Schema.org markup for Google+ -->
+<meta itemprop="name" content="{{ page.title | site.title | default: site.github.repository_name }}">
+<meta itemprop="description" content="{{ page.description | site.description | default: site.github.project_tagline }}">
+<meta itemprop="image" content="{{ page.image | site.preview_image_url }}">
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{{site.twitter_username}}">
+<meta name="twitter:title" content="{{ page.title | site.title | default: site.github.repository_name }}">
+<meta name="twitter:description" content="{{ page.description | site.description | default: site.github.project_tagline }}">
+<meta name="twitter:creator" content="{{ site.author }}">
+
+<!-- Twitter summary card with large image must be at least 280x150px -->
+{% if page.image_url || page.preview_image_url %}
+  <meta name="twitter:image:src" content="{{ page.image_url | page.preview_image_url | absolute_url }}">
+  <meta property="og:image:url"  content="{{ page.image_url | page.preview_image_url | absolute_url }}" />
+  <meta property="og:image"      content="{{ page.image_url | page.preview_image_url | absolute_url }}" />
+{% else %}
+  <meta name="twitter:image:src" content="{{ site.preview_image_url }}">
+  <meta property="og:image:url"  content="{{ site.preview_image_url }}" />
+  <meta property="og:image"      content="{{ site.preview_image_url }}" />
+{% endif %}
+
+<!-- Open Graph data -->
+<meta property="og:title"               content="{{ page.title | site.title | default: site.github.repository_name }}" />
+<meta property="og:description"         content="{{ page.description | site.description | default: site.github.project_tagline }}" />
+<meta property="og:url"                 content="{{page.url | absolute_url}}" />
+<meta property="og:site_name"           content="{{ site.title }}" />
+<meta property="og:type"                content="article" />
+<meta property="fb:app_id"              content="{{ site.facebook.appId }}" />
+<meta property="article:published_time" content="{{ page.date | date: "%Y-%m-%dT%H:%M:%S%z"}}" />
+<meta property="article:modified_time"  content="{{ page.last_modified_at | date: "%Y-%m-%dT%H:%M:%S%z" }}" />
+<meta property="article:section"        content="Article Section" />
+<meta property="article:tag"            content="Article Tag" />

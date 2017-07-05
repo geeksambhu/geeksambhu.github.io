@@ -1,15 +1,10 @@
 ---
-layout: page
 title: About
-permalink: /about/
+layout: page
+permalink: "/about/"
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Hello,
+ 
+ This blog is the part of my day to day learning. 
+ The only way to improve the efficiency of a programmer is by writing. Writing, playing with `codes `and `errors`. I write about Software Engineering, Machine learning, Artificial intelligence & Data Structure and algorithms and in  language and framework like python, Ruby, Django and rails

@@ -13,20 +13,32 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Shiva Gaire
+author: Shiva Gaire - GeekSambhu
+title: Programming Stuffs and learning
 email: geeksambhu@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hello Visitor!! Welcome to my site 
+description: This is the part of my day to day learning #> # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.shivagaire.com.np" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Geeksambhu
-github_username: abiralsambhu
-
+url: "https://geeksambhu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: geeksambhu
+github_username: geeksambhu
+linkedin_username: geeksambhu
+facebook:
+        appid: 831054347059208
+so_nickname: geeksambhu
+so_uid: 7306868
+github:
+  repository_name: geeksambhu
+  project_tagline: A part of a continuous learning. #technoFreak
 # Build settings
+highlighter: rouge
+paginate: 5
+paginate_path: "/blog/page:num"
 markdown: kramdown
-theme: minima
-gems:
+theme: jekyll-theme-cayman
+plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-last-modified-at
 exclude:
   - Gemfile
   - Gemfile.lock
