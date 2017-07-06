@@ -7,8 +7,11 @@ layout: default
     {{ content }}
   </div>
   <div class="tags">
-    {% for tag in page.tags %}
-      <span class="tag">{{ tag }}</span>
+    <hr>
+    <h2>Tags</h2>
+    {% assign tags = page.tags | replace: '["', '' | replace: '"]', '' | split: ',' %}
+    {% for tag in tags %}
+      <span class="tag primary">{{ tag }}</span>&nbsp;
     {% endfor %}
   </div>
   <div class="social-buttons">
