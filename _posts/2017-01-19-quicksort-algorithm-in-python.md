@@ -9,10 +9,10 @@ tags:
 
 A sorting algorithm basically sorts the data structure like array or list in certain order. The order either may be the numerical order or alphabetical order.
 
-A `Quick-Sort` Algorithm is one of the fastest sorting algorithms, which sorts the array based on partitioning the array by choosing an element of the same array as a pivot. All element greater than the pivot are moved to the right direction and all element smaller than the pivot are moved to left.
+A `Quick-Sort` Algorithm is one of the fastest sorting algorithms, which sorts the array based on partitioning by choosing an element of the same array as a pivot. All element greater than the pivot are moved to the right direction and all element smaller than the pivot are moved to left.
 
 The basic idea of this algorithm is to select a pivot element in an array and to put the pivot element in its right place and move all smaller entries than pivot of the array to left, and greater entries than pivot to right of the array. 
-Now the array is divided into two part one part of greater entries than the pivot and another part of the smaller entries than the current pivot element.
+Now the array is divided into two part one part of greater entries than the current pivot element  and another part of the smaller entries than the current pivot element.
 Now the two-part are recursively applied quicksort to left part and to the right part. Recursion basically refers to a function having its own application within its definition.
 
 
@@ -33,7 +33,7 @@ Common practices for choosing pivot element are:
 ## Complexity of QuickSort Algorithm
 
 In Worst case, time complexity will be  O(N<sup>2</sup>) , i.e, it occurs when the pivot element, chosen was smallest or largest resulting one partition to be empty,
-In the best case, time complexity will be O(nlogn), where n is the number of items and it occurs when the pivot is the median of the array which results in the equal partition on left and right.
+In the best case, time complexity will be O(NlogN), where N is the number of items and this occurs when the pivot is the median of the array which results in the equal partition on left and right.
 
 
 ## Python Implementation
