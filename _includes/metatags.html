@@ -2,7 +2,7 @@
                                                   | default: site.github.repository_name %}
 {% assign description     = page.meta.description | default: page.description       | default: site.description       
                                                   | default: site.github.project_tagline %}
-{% assign image_url       = site.preview_image_url        | default: page.preview_image_url | default: site.preview_image_url) %}
+{% assign image_url       = page.image_url        | default: page.preview_image_url | default: site.preview_image_url) %}
 
 {% if image_url contains '://' %}
   {% assign image_url_abs   = image_url %}
