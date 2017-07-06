@@ -19,7 +19,7 @@ email: geeksambhu@gmail.com
 description: This is the part of my day to day learning #> # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://geeksambhu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-preview_image_url: https://upload.wikimedia.org/wikipedia/en/2/24/Binary-icon.png
+preview_image_url: https://pbs.twimg.com/profile_images/744938552396382208/ME-EjUMM_400x400.jpg
 twitter_username: geeksambhu
 github_username: geeksambhu
 linkedin_username: geeksambhu
