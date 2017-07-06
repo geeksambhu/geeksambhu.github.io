@@ -3,7 +3,11 @@
   {% for post in site.posts limit: 5 %}
     <li>
       {% include list-content.html %}
-      <p> <a href="{{post.url}}">Read More...</a></p>
+      <p>{{ post.excerpt | strip_html | truncatewords:30 }}<br> <a href="{{post.url}}">
+      <i class="fa fa-link"></i> 
+      Read More 
+    </a>
+      </p>
     </li>
   {% endfor %}
 </ul>

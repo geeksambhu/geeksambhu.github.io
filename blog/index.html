@@ -1,12 +1,18 @@
 ---
-layout: default
-title: My Blog
+layout:         default
+title:          My Blog
 ---
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   {% include list-content.html %}
-  <p> <a href="{{post.url}}">Read More...</a></p>
+  <p>{{ post.excerpt | strip_html | truncatewords:75 | default: post.description }} <br>
+    <a href="{{post.url}}">
+      <i class="fa fa-link"></i> 
+      Read More...
+    </a>
+  </p>
+  <hr>
 {% endfor %}
 
 <!-- Pagination links -->
