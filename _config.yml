@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 author: Shiva Gaire - GeekSambhu
-title: Programming Stuffs and learning
+title: Programming Stuffs and Learning
 email: geeksambhu@gmail.com
 description: This is the part of my day to day learning #> # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -28,7 +28,7 @@ so_nickname: geeksambhu
 so_uid: 7306868
 github:
   repository_name: geeksambhu
-  project_tagline: A part of a continuous learning. #technoFreak
+  project_tagline: A part of my continuous learning
 # Build settings
 highlighter: rouge
 paginate: 5
