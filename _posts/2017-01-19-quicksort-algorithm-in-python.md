@@ -3,6 +3,8 @@ title: QuickSort Algorithm in Python
 layout: post
 tags:
 - Quicksort Algorithm,  python,  Algorithm
+category:
+- Algorithm
 ---
 
 ## Introduction to Quick Sort Algorithm

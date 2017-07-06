@@ -3,7 +3,17 @@
   {% for post in site.posts limit: 5 %}
     <li>
       {% include list-content.html %}
-       <p>{{ post.excerpt | strip_html | truncatewords:30 }}<br> <a href="{{post.url}}">
+       <p>{{ post.excerpt | strip_html | truncatewords:30 }}<br> 
+        <i class="fa fa-clock-o"></i> 
+        <span class="tag info" >
+        {% capture words %}
+        {{ post.content | number_of_words }}
+        {% endcapture %}
+        {% unless words contains "-" %}
+        {{ words | divided_by: 130 | append: " minute read" }}
+        {% endunless %}
+        </span>
+       <a href="{{post.url}}">
       <i class="fa fa-link"></i> 
       Read More 
     </a>
