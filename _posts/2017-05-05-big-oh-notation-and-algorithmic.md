@@ -5,8 +5,7 @@ image_url: https://1.bp.blogspot.com/-q_If4WoaJTA/WQz5mDhm2QI/AAAAAAAATGg/AWr6Iy
 tags:
 - Big Oh notations, Theoretical computer science,  Algorithm
 description: Basic Explanation to BIg Oh!!
-category: 
-- Theoritical Computer Science
+
 ---
 
 ### Introduction
