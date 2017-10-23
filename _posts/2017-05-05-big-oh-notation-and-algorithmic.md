@@ -10,7 +10,13 @@ description: Basic Explanation to Big O!!
 
 ### Introduction
 
-When executing a particular task using algorithms, one common thing that hits every problem solver brain is the efficient and fast algorithm to solve that problem. But, what do exactly fast and efficient means? Is it the measure of real processing time? No, it's not the measure of real time like second and minutes because the old computer with Pentium processor may take a long time to process the same algorithm than the new Intel i3 processor, or, A bad algorithm written in Assembly may execute faster than a good algorithm written in python. So, run time of program can't be considered to measure algorithmic efficiency. 
+When executing a particular task using algorithms, one common thing that hits every problem solver brain is the efficient and fast algorithm to solve that problem. But, what do exactly fast and efficient means? 
+
+Is it the measure of real processing time? 
+
+No, it's not the measure of real time like second and minutes because the old computer with Pentium processor may take a long time to process the same algorithm than the new Intel i3 processor, or, A bad algorithm written in Assembly may execute faster than a good algorithm written in python. 
+
+So, run time of program can't be considered to measure algorithmic efficiency. 
 
 Hence, to measure the algorithmic efficiency, the concept of **Asymptotic Complexity** of a program and a notation for describing this called **Big O**  was introduced. **Big O** is the worst case, **Big Omega** and **Big Theta** are best and average case notations. Worst case means we are mostly unlucky for that problem domain , i.e precondition of task do not favour us. Complexity analysis is a tool that allows us to explain how an algorithm behaves as the input grows larger.
 
@@ -34,7 +40,7 @@ The **O(1)** does not change with the size of inputs.
 
 ### Variations
 
-There are many different Big Oh runtimes like **O(n), O(n**²) etc
+There are many different Big O runtimes like **O(n), O(n**²) etc
 
 **O(n**²) are asymptotically slower than **O(n) i.e if **n grows  **O(n**²) will take more time than **O(n). **
 
