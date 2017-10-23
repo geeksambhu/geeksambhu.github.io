@@ -1,10 +1,10 @@
 ---
-title: Big Oh notation and Algorithmic Complexity analysis
+title: Big O notation and Algorithmic Complexity analysis
 layout: post
 image_url: https://1.bp.blogspot.com/-q_If4WoaJTA/WQz5mDhm2QI/AAAAAAAATGg/AWr6IyaHI98WN5aZL0XY5hH4Rmn2XmghACLcB/s320/Screenshot%2Bfrom%2B2017-05-06%2B04-00-15.png
 tags:
-- Big Oh notations, Theoretical computer science,  Algorithm
-description: Basic Explanation to BIg Oh!!
+- Big O notations, Theoretical computer science,  Algorithm
+description: Basic Explanation to Big O!!
 
 ---
 
@@ -12,7 +12,7 @@ description: Basic Explanation to BIg Oh!!
 
 When executing a particular task using algorithms, one common thing that hits every problem solver brain is the efficient and fast algorithm to solve that problem. But, what do exactly fast and efficient means? Is it the measure of real processing time? No, it's not the measure of real time like second and minutes because the old computer with Pentium processor may take a long time to process the same algorithm than the new Intel i3 processor, or, A bad algorithm written in Assembly may execute faster than a good algorithm written in python. So, run time of program can't be considered to measure algorithmic efficiency. 
 
-Hence, to measure the algorithmic efficiency, the concept of **Asymptotic Complexity** of a program and a notation for describing this called **Big Oh**  was introduced. **Big Oh** is the worst case, **Big Omega** and **Big Theta** are best and average case notations. Worst case means we are mostly unlucky for that problem domain , i.e precondition of task do not favour us. Complexity analysis is a tool that allows us to explain how an algorithm behaves as the input grows larger.
+Hence, to measure the algorithmic efficiency, the concept of **Asymptotic Complexity** of a program and a notation for describing this called **Big O**  was introduced. **Big O** is the worst case, **Big Omega** and **Big Theta** are best and average case notations. Worst case means we are mostly unlucky for that problem domain , i.e precondition of task do not favour us. Complexity analysis is a tool that allows us to explain how an algorithm behaves as the input grows larger.
 
 ### Scenarios
 
@@ -49,7 +49,7 @@ Simpler Program can be anlysed by counting number of nested loop.
 *   A single loop over n items has **O(n)** complexity.
 *   A loop within a loop has **O(n**²) complexity
 
-| [![Different variations of Big Oh](https://1.bp.blogspot.com/-q_If4WoaJTA/WQz5mDhm2QI/AAAAAAAATGg/AWr6IyaHI98WN5aZL0XY5hH4Rmn2XmghACLcB/s320/Screenshot%2Bfrom%2B2017-05-06%2B04-00-15.png "Big Oh notation")](https://1.bp.blogspot.com/-q_If4WoaJTA/WQz5mDhm2QI/AAAAAAAATGg/AWr6IyaHI98WN5aZL0XY5hH4Rmn2XmghACLcB/s1600/Screenshot%2Bfrom%2B2017-05-06%2B04-00-15.png) |
+| [![Different variations of Big O](https://1.bp.blogspot.com/-q_If4WoaJTA/WQz5mDhm2QI/AAAAAAAATGg/AWr6IyaHI98WN5aZL0XY5hH4Rmn2XmghACLcB/s320/Screenshot%2Bfrom%2B2017-05-06%2B04-00-15.png "Big Oh notation")](https://1.bp.blogspot.com/-q_If4WoaJTA/WQz5mDhm2QI/AAAAAAAATGg/AWr6IyaHI98WN5aZL0XY5hH4Rmn2XmghACLcB/s1600/Screenshot%2Bfrom%2B2017-05-06%2B04-00-15.png) |
 | Big Oh Variant |
 
 The Original Blog post about this is [here.](http://geeksambhu.blogspot.com/2017/05/big-oh-notation-and-algorithmic.html)
