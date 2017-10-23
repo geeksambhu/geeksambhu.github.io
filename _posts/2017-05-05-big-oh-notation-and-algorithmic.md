@@ -43,7 +43,7 @@ The **O(1)** does not change with the size of inputs.
 
 There are many different Big O runtimes like **O(n), O(n**²) etc
 
-**O(n**²) are asymptotically slower than **O(n)** i.e if **n** grows  **O(n**²)** will take more time than **O(n). **
+**O(n**²) are asymptotically slower than **O(n)** i.e if **n** grows  **O(n**²) will take more time than **O(n). **
 
 This dosen't means **O(n)** always run faster, maybe if input is smaller then  **O(n**²) may work faster yet unnoticed
 
