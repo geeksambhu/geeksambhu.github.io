@@ -26,6 +26,7 @@ group :jekyll_plugins do
    gem 'jekyll-last-modified-at'
    gem "jekyll-admin"
    gem "jekyll-paginate"
+   gem 'jekyll-email-protect'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
