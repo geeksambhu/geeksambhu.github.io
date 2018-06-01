@@ -8,3 +8,4 @@ description: I take my whole life as an apprenticeship. This shows what I learnt
 ---
 
 This is the part of my day to day apprenticeship.
+Date:
