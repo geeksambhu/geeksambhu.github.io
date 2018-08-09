@@ -13,5 +13,3 @@
 - Wrote a blog and a script to Organize Desktop and group similar files in a Directory
  
 
-Thu Aug  9 13:33:03 +0545 2018
-
