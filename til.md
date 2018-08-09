@@ -1,11 +1,11 @@
----
-title: Today I learnt!
-layout: page
-comments: false
-permalink: "/til/"
-description: I take my whole life as an apprenticeship. This shows what I learnt each
-  day.
----
+Mon Jul 16 14:31:38 +0545 2018
+- Built this script and alias it to .zshrc
+- nano +9999 opens the file at end of file
+- about:about opens custom url in both the browser in firefox and chrome
 
-This is the part of my day to day apprenticeship.
-Date:
+Wed Jul 18 16:33:49 +0545 2018
+- nginx HSTS error fixed updating the certificate
+- 
+Thu Aug  9 13:27:04 +0545 2018
+- Wrote a blog and a script to Organize Desktop and group similar files in a Directory
+- 

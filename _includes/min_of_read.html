@@ -1,0 +1,3 @@
+{% assign word_count = include.post.content | number_of_words %}
+{% assign no_of_minutes = word_count | divided_by: 180 %}
+{% if word_count > 0 %}  <span class="post-meta tag primary"> <i class="fa fa-clock-o"></i> {{ no_of_minutes }} min read </span> {% endif %}
