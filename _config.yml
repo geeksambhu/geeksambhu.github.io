@@ -37,6 +37,7 @@ paginate_path: "/blog/page:num"
 markdown: kramdown
 theme: jekyll-theme-cayman
 plugins:
+  - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
   - jekyll-last-modified-at
