@@ -21,7 +21,8 @@ description: I take my whole life as an apprenticeship and this is my journey ea
 
 - Wrote a blog and a script to Organize Desktop and group similar files in a Directory
 - ``` echo '\n#### ' `date` ``` appends UNIX commands  `date` to string in shell  
-- How to check if a string ends with any of the elements
+- How to check if a string ends with any of the elements?
+    
         *   such list of string  must be `tuple`  for that purpose
 
  ```python
