@@ -1,5 +1,5 @@
 ---
-title: Today I Learnt :)
+title: Today I Learned :)
 layout: page
 comments: true
 permalink: "/til/"
