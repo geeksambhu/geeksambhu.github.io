@@ -5,43 +5,43 @@
      {% include metatags.html %}
     <title> {{ title }}</title>
 
-   
+
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/main.css?v='  | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  
+
   <body>
     <section class="page-header">
       <a href="/" class="btn"><i class="fa fa-home"></i> Home</a>
-      <a href="/blog" class="btn"><i class="fa fa-book"></i> Blog</a>
+      <a href="/blog" class="btn"><i class="fa fa-book"></i>Blog</a>
       <a href="/about" class="btn"><i class="fa fa-user"></i> About</a>
-      <a href ='/til'  class="btn"><i class="fa fa-smile-o"> </i> Today I learnt</a>
-      
+      <a href ='/til'  class="btn"><i class="fa fa-smile-o"> </i> Today I learned</a>
+
       <h1 class="project-name">   {{ page.title       | default: site.title        | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description  | default: site.github.project_tagline }}</h2>
     </section>
 
     <section class="main-content">
-      
+
       {{ content }}
-      
+
       <footer class="site-footer">
-      
+
         <div class="social-icons">
           <hr>
           {% include social-icons.html %}
           <hr>
         </div>
-      
+
         {% include facebook.html %}
-      
+
       </footer>
     </section>
-    
+
     {% include google-analytics.html %}
-    
+
   </body>
 </html>
