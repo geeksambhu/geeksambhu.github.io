@@ -18,7 +18,7 @@ title: Programming Stuffs and Learning
 email: geeksambhu@gmail.com
 description: This is the part of my day to day learning #> # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://shivagaire.com.np" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.shivagaire.com.np" # the base hostname & protocol for your site, e.g. http://example.com
 preview_image_url: https://avatars0.githubusercontent.com/u/9899283?v=3&s=460
 twitter_username: geeksambhu
 github_username: geeksambhu
