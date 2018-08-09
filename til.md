@@ -8,4 +8,6 @@ Wed Jul 18 16:33:49 +0545 2018
 - 
 Thu Aug  9 13:27:04 +0545 2018
 - Wrote a blog and a script to Organize Desktop and group similar files in a Directory
-- 
+ 
+
+Thu Aug  9 13:33:03 +0545 2018
