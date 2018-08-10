@@ -4,6 +4,7 @@ layout: post
 image_url: "/assets/images/file_management.jpg"
 tags:
 - Python,  Automation
+category: Python
 ---
 
 ### Organize the Mess in your Download Directory with this Simple Python Script
