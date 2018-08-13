@@ -11,6 +11,15 @@ description: I take my whole life as an apprenticeship and this is my journey ea
 ## Here is my journey so far:
 -------------------------------------------------------------------------------
 
+####  Mon Aug 13 09:28:52 +0545 2018
+
+What is the difference between `json.dump()` and `json.dumps()` in 
+python?
+
+`json.dump` takes file stream and will dump into a file stream while 
+`json.dumps` takes string argument and often used for printing parsing 
+etc. `json.dumps` == `dump string` :D
+
 ### Thu Aug  9  2018
 
 Wrote a blog and a script to Organize Desktop and group similar files in a Directory
