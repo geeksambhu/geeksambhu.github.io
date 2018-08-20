@@ -11,7 +11,14 @@ description: I take my whole life as an apprenticeship and this is my journey ea
 ## Here is my journey so far:
 -------------------------------------------------------------------------------
 
-####  Mon Aug 13 09:28:52 +0545 2018
+####  Fri Aug 17 14:28:36 +0545 2018
+
+How to stash untracked files in `git`?
+`git stash -u` stash the untracked files in git without adding files to staging area
+New versions of `git` now have `git stash --all` which stashes all files, including untracked and ignored files.
+`git stash --include-untracked` no longer touches ignored files
+
+###  Mon Aug 13 09:28:52 +0545 2018
 
 What is the difference between `json.dump()` and `json.dumps()` in 
 python?
@@ -55,3 +62,5 @@ How to open `nano` at the end of the file?
 
 
 > `about:about` opens custom url in both the browser in firefox and chrome
+
+####  Fri Aug 17 14:28:36 +0545 2018
