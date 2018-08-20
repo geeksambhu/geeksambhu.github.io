@@ -14,6 +14,7 @@ description: I take my whole life as an apprenticeship and this is my journey ea
 ####  Fri Aug 17 14:28:36 +0545 2018
 
 How to stash untracked files in `git`?
+
 `git stash -u` stash the untracked files in git without adding files to staging area
 New versions of `git` now have `git stash --all` which stashes all files, including untracked and ignored files.
 `git stash --include-untracked` no longer touches ignored files
