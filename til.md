@@ -64,4 +64,10 @@ How to open `nano` at the end of the file?
 
 > `about:about` opens custom url in both the browser in firefox and chrome
 
-####  Fri Aug 17 14:28:36 +0545 2018
+
+####  Tue Oct 2 13:54:14 +0545 2018
+
+##### How to redirect to `https` from `http` using Flask `url_for()` ?
+
+> Since Flask `url_for` does not respect `http` or `https` while redirecting, always use `redirect(url_for('func_name', _external=True))` to respect the root `URL` and 
+Scheme(`http` or `https`) Used
