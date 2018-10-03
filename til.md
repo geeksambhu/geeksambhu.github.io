@@ -71,3 +71,45 @@ How to open `nano` at the end of the file?
 
 > Since Flask `url_for` does not respect `http` or `https` while redirecting, always use `redirect(url_for('func_name', _external=True))` to respect the root `URL` and 
 Scheme(`http` or `https`) Used
+
+####  Wed Oct 3 17:01:09 +0545 2018
+
+##### How to remotely execute remote bash script in remote machine from local machine?
+
+> To remotely execute a script residing in remote machine, do this:
+
+`ssh username@host.address './remotescript.sh'`
+
+On doing so remote script is executed however node module are not found and executed hence to execute the npm tools like `pm2` follow the following steps:
+
+1. Type the following commands in your remote machine:
+    
+`echo $PATH`
+
+It will output results like below:
+
+`/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/.nvm/versions/node/v8.9.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin`
+
+2. Copy the above output and open the file with texteditor like `nano remotescript.sh`  and add the new line at the start of file. The new line must be like these:
+
+`export PATH='{step 1 Output}'
+
+remember that the `{step 1 Output}` looks like these`/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/.nvm/versions/node/v8.9.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin`
+
+3. Now save and close the file and execute your remote file like these:
+ 
+`ssh username@host.address './remotescript.sh'` 
+
+CONGRATS!!!, You just ran your remote script in remote machine from local machine: let me know if any problem occurs :)
+
+
+ 
+####  Wed Oct 3 17:01:09 +0545 2018
+
+###### How to find the length of a `set` in `javascript`?
+
+> Use `set_variable.size` like below:
+
+    var setTempVariable = new Set([1,2,3,4])
+    console.log(setTempVariable.size) // Outputs 4
+
