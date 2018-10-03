@@ -11,9 +11,9 @@ description: I take my whole life as an apprenticeship and this is my journey ea
 ## Here is my journey so far:
 -------------------------------------------------------------------------------
 
-####  Fri Aug 17 14:28:36 +0545 2018
+###  Fri Aug 17 14:28:36 +0545 2018
 
-How to stash untracked files in `git`?
+#### How to stash untracked files in `git`?
 
 `git stash -u` stash the untracked files in git without adding files to staging area
 New versions of `git` now have `git stash --all` which stashes all files, including untracked and ignored files.
@@ -21,7 +21,7 @@ New versions of `git` now have `git stash --all` which stashes all files, includ
 
 ###  Mon Aug 13 09:28:52 +0545 2018
 
-What is the difference between `json.dump()` and `json.dumps()` in 
+#### What is the difference between `json.dump()` and `json.dumps()` in 
 python?
 
 `json.dump` takes file stream and will dump into a file stream while 
@@ -31,9 +31,10 @@ etc. `json.dumps` == `dump string` :D
 ### Thu Aug  9  2018
 
 Wrote a blog and a script to Organize Desktop and group similar files in a Directory
-##### ``` echo '\n#### ' `date` ``` appends UNIX commands  `date` to string in shell  
 
-How to check if a string endswith any of the elements from a list in python?
+  ``` echo '\n#### ' `date` ``` appends UNIX commands  `date` to string in shell  
+
+#### How to check if a string endswith any of the elements from a list in python?
      
   > such list of string  must be `tuple`  for that purpose
 
@@ -49,7 +50,9 @@ True
 
 ### Wed Jul 18  2018
 
-> nginx HSTS error fixed updating the certificate
+#### How to fix nginx HSTS error? 
+ 
+    I fixed by updating the certificate
 
 -------------------------------------------------------------------------------
 
@@ -65,16 +68,16 @@ How to open `nano` at the end of the file?
 > `about:about` opens custom url in both the browser in firefox and chrome
 
 
-####  Tue Oct 2 13:54:14 +0545 2018
+### Tue Oct 2 13:54:14 +0545 2018
 
-##### How to redirect to `https` from `http` using Flask `url_for()` ?
+#### How to redirect to `https` from `http` using Flask `url_for()` ?
 
 > Since Flask `url_for` does not respect `http` or `https` while redirecting, always use `redirect(url_for('func_name', _external=True))` to respect the root `URL` and 
 Scheme(`http` or `https`) Used
 
-####  Wed Oct 3 17:01:09 +0545 2018
+###  Wed Oct 3 17:01:09 +0545 2018
 
-##### How to remotely execute remote bash script in remote machine from local machine?
+#### How to remotely execute remote bash script in remote machine from local machine?
 
 > To remotely execute a script residing in remote machine, do this:
 
@@ -104,12 +107,14 @@ CONGRATS!!!, You just ran your remote script in remote machine from local machin
 
 
  
-####  Wed Oct 3 17:01:09 +0545 2018
+###  Wed Oct 3 17:01:09 +0545 2018
 
-###### How to find the length of a `set` in `javascript`?
+#### How to find the length of a `set` in `javascript`?
 
 > Use `set_variable.size` like below:
 
     var setTempVariable = new Set([1,2,3,4])
     console.log(setTempVariable.size) // Outputs 4
+
+
 
