@@ -108,3 +108,15 @@ CONGRATS!!!, You just ran your remote script in remote machine from local machin
 
     var setTempVariable = new Set([1,2,3,4])
     console.log(setTempVariable.size) // Outputs 4
+
+
+###  Tue Oct 23 17:02:53 +0545 2018
+
+#### How to use or operator in regex to match either group?
+
+> I had a use case to match either a number or a fixed string which I did by 
+using following regex:
+       
+      `((^[0-9]+$)|FIXED$)`
+Using `+` and `$` helped me to exact match either of the group i.e number or 
+'FIXED' string. + looks for 0 or 1 repetition while $ matched the end of string
