@@ -118,5 +118,7 @@ CONGRATS!!!, You just ran your remote script in remote machine from local machin
 using following regex:
        
       `((^[0-9]+$)|FIXED$)`
+
 Using `+` and `$` helped me to exact match either of the group i.e number or 
 'FIXED' string. + looks for 0 or 1 repetition while $ matched the end of string
+
