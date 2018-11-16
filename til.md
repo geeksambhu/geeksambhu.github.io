@@ -3,8 +3,9 @@ title: Today I Learned :)
 layout: post
 comments: true
 permalink: "/til/"
-description: I take my whole life as an apprenticeship and this is my journey each
-  day
+description: |-
+  I take my whole life as an apprenticeship and this is my journey each day.
+  In short: git stash untracked files, json.dump() and json.dumps python, Fix HSTS error, remotely execute script via ssh,
 ---
 
 -------------------------------------------------------------------------------
@@ -121,4 +122,3 @@ using following regex:
 
 Using `+` and `$` helped me to exact match either of the group i.e number or 
 'FIXED' string. + looks for 0 or 1 repetition while $ matched the end of string
-

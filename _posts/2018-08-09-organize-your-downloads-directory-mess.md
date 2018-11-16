@@ -5,6 +5,7 @@ image_url: "/assets/images/file_management.jpg"
 tags:
 - Python,  Automation
 category: Python
+description: Organize and improve your Download directory using python programmatically.
 ---
 
 ### Organize the Mess in your Download Directory with this Simple Python Script
