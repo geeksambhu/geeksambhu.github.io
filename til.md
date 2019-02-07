@@ -122,3 +122,51 @@ using following regex:
 
 Using `+` and `$` helped me to exact match either of the group i.e number or 
 'FIXED' string. + looks for 0 or 1 repetition while $ matched the end of string
+
+###  Sun Feb 3 23:59:31 +0545 2019
+
+#### Simple Mail server for debugging in python
+ 
+  ```python -m smtpd -c DebuggingServer -n <source_address>:<port>```
+
+If default `mailserver` will be enable in port `localhost:8025`, Anything sent to this address and port will be sent in STDOUT
+  
+Happy Email debugging Folks:
+
+```bash
+telnet localhost 25
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+220 Shivas-Macbook.local Python SMTP proxy version 0.2
+helo localhost #To connect
+250 Shivas-Macbook.local
+mail from: username@mymail.com # From
+250 Ok
+rcpt to: shivaji@@mymail.com #receipent
+250 Ok
+data #data to send message
+354 End data with <CR><LF>.<CR><LF>
+Subject: Hello
+Hello,
+This is sample test
+Me
+.
+```
+End telnet with a `.` at the end
+
+In STDOUT after sending message from `telnet`
+:
+
+```bash
+python -m smtpd -c DebuggingServer -n
+
+---------- MESSAGE FOLLOWS ----------
+Subject: Hello
+Hello,
+This is sample test
+Me
+------------ END MESSAGE ------------
+```
+ 
+
