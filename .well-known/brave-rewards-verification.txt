@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: shivagaire.com.np
+Token: 9b743834985e0911dcf9e8a042c31021514d9735836738e1eb34560d986b3395
