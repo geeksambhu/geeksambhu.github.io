@@ -173,9 +173,10 @@ Me
 
 ###  Thu May 16 10:32:44 +0545 2019
 
-### create wheel from setup.py
+### How to create wheel from setup.py?
 
 run ``python setup.py wheel`` inside the package root
 
-#### Download wheel or source from `pip` Python packages
-``pip download -r requirements.txt --prefer-binary`` to download `whl` file. ` pip download -r requirements.txt --no-binary :all:`
+### Download wheel or source from `pip` Python packages
+``pip download -r requirements.txt --prefer-binary`` to download `whl` file.
+` pip download -r requirements.txt --no-binary :all:` to download source file, `.gz` or `.zip`
