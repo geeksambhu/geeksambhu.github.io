@@ -4,7 +4,12 @@ layout: post
 image_url: https://1.bp.blogspot.com/-q_If4WoaJTA/WQz5mDhm2QI/AAAAAAAATGg/AWr6IyaHI98WN5aZL0XY5hH4Rmn2XmghACLcB/s320/Screenshot%2Bfrom%2B2017-05-06%2B04-00-15.png
 tags:
 - Big Oh notations, Theoretical computer science,  Algorithm
-description: Basic Explanation to BIg O Notation!! Theoretical Computer Science
+description: Basic Explanation to Big O Notation!! Theoretical Computer Science
+metatitle: Basic Explanation to Big O complexity in plain english
+metadescription: Theoretical explanation of to Big O complexity  and its analysis
+  in plain english. Explanation of Algorithmic analysis in plain english
+metatags: Big O notation, Computer science, Algorithmic complexity,  theoretical computer
+  science
 ---
 
 ### Introduction

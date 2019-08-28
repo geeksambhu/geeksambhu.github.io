@@ -2,10 +2,15 @@
 title: QuickSort Algorithm in Python
 layout: post
 tags:
-  - Quicksort Algorithm,  python,  Algorithm
+- Quicksort Algorithm,  python,  Algorithm
 category:
-  - Algorithm
+- Algorithm
 description: Quicksort Algorithm in Python
+metatitle: Quicksort Algorithm in Python
+metatags: Quicksort Algorithm,  python,  Algorithm, quick-sort, python
+metadescription: Implementation and explanation of quick sort algorithm in python.
+  Example code of quick sort implementation in python. Algorithmic Complexity analysis
+  of quick sort algorithm in python
 ---
 
 ## Introduction to Quick Sort Algorithm

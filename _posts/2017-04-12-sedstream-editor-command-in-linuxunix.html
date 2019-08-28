@@ -11,6 +11,10 @@ blogger_id: tag:blogger.com,1999:blog-2622751468229364031.post-65905486566522929
 blogger_orig_url: http://geeksambhu.blogspot.com/2017/04/sedstream-editor-command-in-linuxunix.html
 category:
 - linux
+metatitle: sed command in linux
+metadescription: using sed command line in linux  to perform text replacement in a
+  file. one among the many linux sed command use cases
+metatags: linux, commands, sed, terminal, debian
 ---
 
 <div dir="ltr" style="text-align: left;" trbidi="on"><h3 style="text-align: left;">Introduction to stream editor</h3><div>A stream editor is a tool that transforms text, edit a file and replaces file content with the manipulation using the regular expression.</div><h3 style="text-align: left;">Why I used Stream Editor?</h3><div>I find this tool handy and more useful when I have to c<span style="font-family: inherit;">hange a </span>word of a file line by line. I faced this issue while updating my Debian&nbsp;operating system from Jessie "Debian 8" to stretch "Debian 9" for that, I have to update my <span style="font-family: Courier New, Courier, monospace;">/etc/apt/sources.list </span><span style="font-family: inherit;">file, in which I have to change the each "Jessie" word in that file &nbsp;to "stretch"</span></div><div><span style="font-family: inherit;">So, I use this command</span></div><div><span style="font-family: inherit;"><br /></span></div><div><span style="font-family: Courier New, Courier, monospace;">sudo sed -i 's/jessie/stretch/g' /etc/apt/sources.list</span></div><div><span style="font-family: Courier New, Courier, monospace;"><br /></span></div><div><span style="font-family: Arial, Helvetica, sans-serif;">Here the "s" specifies the substitution. The "/" are delimiters.</span></div><div><span style="font-family: Arial, Helvetica, sans-serif;">"jessie" is the search pattern and "stretch" is the replacement pattern.</span></div><div><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp;for more refer to sed manual page <a href="https://www.gnu.org/software/sed/manual/sed.html">here</a>&nbsp;or prefer manual page in your machine for sed commands.</span></div></div>
