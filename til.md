@@ -3,9 +3,9 @@ title: Today I Learned :)
 layout: post
 comments: true
 permalink: "/til/"
-description: |-
-  Day to day notes and tricks on solving daily problems whilst programming,Collection of useful tricks on  python, bash, node.js and javascript and anything about 
-programming and technology
+description: Day to day solutions to common problems of a programmer while in a job.
+  Collection of tips and tricks on Python, JavaScript, bash, command line and everything
+  I learnt.
 ---
 
 -------------------------------------------------------------------------------
@@ -192,4 +192,3 @@ Use `--exclude` as many times you like to exclude files and folders.
  cd <directory> #DIrectory in which you want to compress the files and folders
  tar --exclude='./node_modules' --exclude='.excluding_folder_name' --exclude='./test.py' --exclude='./env' -czvf excluded.tar.gz .
 ```
-
