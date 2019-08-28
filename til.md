@@ -180,3 +180,15 @@ run ``python setup.py wheel`` inside the package root
 ### Download wheel or source from `pip` Python packages
 ``pip download -r requirements.txt --prefer-binary`` to download `whl` file.
 ` pip download -r requirements.txt --no-binary :all:` to download source file, `.gz` or `.zip`
+
+###  Wed Aug 28 09:28:39 +0545 2019
+
+### How to exclude files and folders when compressing using `tar`?
+
+Use `--exclude` as many times you like to exclude files and folders.
+
+
+```bash 
+ cd <directory> #DIrectory in which you want to compress the files and folders
+ tar --exclude='./node_modules' --exclude='.excluding_folder_name' --exclude='./test.py' --exclude='./env' -czvf excluded.tar.gz .
+```
