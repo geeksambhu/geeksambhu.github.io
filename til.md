@@ -8,6 +8,8 @@ metadescription: Collection of solution to common programming and technical prob
   and also tips and tricks on Python, JavaScript, bash, command line and everything
   I learnt
 metatitle: Today I Learned- Collection of programming tips and tricks
+metatags: today i learned,  til,  python,  javascript,  command line,  bash, tips,
+  tricks
 ---
 
 -------------------------------------------------------------------------------
