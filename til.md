@@ -1,5 +1,5 @@
 ---
-title: Today I Learned :)
+title: Today I Learned- Collection of programming tips and tricks
 layout: post
 comments: true
 permalink: "/til/"
