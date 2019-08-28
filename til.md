@@ -4,8 +4,8 @@ layout: post
 comments: true
 permalink: "/til/"
 description: |-
-  I take my whole life as an apprenticeship and this is my journey each day.
-  In short: git stash untracked files, json.dump() and json.dumps python, Fix HSTS error, remotely execute script via ssh,
+  Day to day notes and tricks on solving daily problems whilst programming,Collection of useful tricks on  python, bash, node.js and javascript and anything about 
+programming and technology
 ---
 
 -------------------------------------------------------------------------------
@@ -192,3 +192,4 @@ Use `--exclude` as many times you like to exclude files and folders.
  cd <directory> #DIrectory in which you want to compress the files and folders
  tar --exclude='./node_modules' --exclude='.excluding_folder_name' --exclude='./test.py' --exclude='./env' -czvf excluded.tar.gz .
 ```
+
