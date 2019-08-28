@@ -1,45 +1,45 @@
-{% assign title           = page.meta.title       | default: page.title             | default: site.title
+{% assign title           = page.metatitle       | default: page.title             | default: site.title
                                                   | default: site.github.repository_name %}
-{% assign description     = page.meta.description | default: page.description       | default: site.description
+{% assign description     = page.metadescription | default: page.description       | default: site.description
                                                   | default: site.github.project_tagline %}
 {% assign image_url       = page.image_url        | default: page.preview_image_url | default: site.preview_image_url) %}
 
 {% if image_url contains '://' %}
-  {% assign image_url_abs   = image_url %}
+{% assign image_url_abs   = image_url %}
 {% else %}
-  {% assign image_url_abs   = image_url           | absolute_url %}
+{% assign image_url_abs   = image_url           | absolute_url %}
 {% endif %}
 
-<meta name="description"  content="{{ description }}"/>
-<meta name="viewport"     content="width=device-width, initial-scale=1">
-<meta name="theme-color"  content="#157878">
-<meta name="keywords"     content="{{ page.tags }}" />
+<meta name="description" content="{{ description }}" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#157878">
+<meta name="keywords" content="{{ page.tags }}" />
 
 <!-- Schema.org markup for Google+ -->
-<meta itemprop="name"                   content="{{ title }}">
-<meta itemprop="description"            content="{{ description }}">
-<meta itemprop="image"                  content="{{ image_url_abs }}">
+<meta itemprop="name" content="{{ title }}">
+<meta itemprop="description" content="{{ description }}">
+<meta itemprop="image" content="{{ image_url_abs }}">
 
 <!-- Twitter Card data -->
-<meta name="twitter:title"              content="{{ title }}">
-<meta name="twitter:description"        content="{{ description }}">
-<meta name="twitter:creator"            content="{{ site.author }}">
-<meta name="twitter:site"               content="@{{site.twitter_username}}">
-<meta name="twitter:card"               content="summary_large_image">
+<meta name="twitter:title" content="{{ title }}">
+<meta name="twitter:description" content="{{ description }}">
+<meta name="twitter:creator" content="{{ site.author }}">
+<meta name="twitter:site" content="@{{site.twitter_username}}">
+<meta name="twitter:card" content="summary_large_image">
 <!-- Twitter summary card with large image must be at least 280x150px -->
-<meta name="twitter:image:src"          content="{{ image_url_abs }}">
+<meta name="twitter:image:src" content="{{ image_url_abs }}">
 
 <!-- Open Graph data -->
-<meta property="og:title"               content="{{ title }}" />
-<meta property="og:description"         content="{{ description }}" />
-<meta property="og:url"                 content="{{ page.url              | absolute_url }}" />
-<meta property="og:site_name"           content="{{ site.title }}" />
-<meta property="og:image"               content="{{ image_url_abs }}" />
-<meta property="og:image:url"           content="{{ image_url_abs }}" />
-<meta property="fb:app_id"              content="{{ site.facebook.appId }}" />
-<meta property="og:type"                content="article" />
+<meta property="og:title" content="{{ title }}" />
+<meta property="og:description" content="{{ description }}" />
+<meta property="og:url" content="{{ page.url              | absolute_url }}" />
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:image" content="{{ image_url_abs }}" />
+<meta property="og:image:url" content="{{ image_url_abs }}" />
+<meta property="fb:app_id" content="{{ site.facebook.appId }}" />
+<meta property="og:type" content="article" />
 
 <meta property="article:published_time" content="{{ page.date             | date: "%Y-%m-%dT%H:%M:%S%z" }}" />
-<meta property="article:modified_time"  content="{{ page.last_modified_at | date: "%Y-%m-%dT%H:%M:%S%z" }}" />
-<meta property="article:section"        content="Article Section" />
-<meta property="article:tag"            content="Article Tag" />
+<meta property="article:modified_time" content="{{ page.last_modified_at | date: "%Y-%m-%dT%H:%M:%S%z" }}" />
+<meta property="article:section" content="Article Section" />
+<meta property="article:tag" content="Article Tag" />

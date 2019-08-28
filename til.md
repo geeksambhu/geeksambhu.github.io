@@ -1,11 +1,13 @@
 ---
-title: Today I Learned- Collection of programming tips and tricks
+title: Today I Learned
 layout: post
 comments: true
 permalink: "/til/"
-description: Day to day solutions to common problems of a programmer while in a job.
-  Collection of tips and tricks on Python, JavaScript, bash, command line and everything
-  I learnt.
+description: A part of my day to day learning
+metadescription: Collection of solution to common programming and technical problems
+  and also tips and tricks on Python, JavaScript, bash, command line and everything
+  I learnt
+metatitle: Today I Learned- Collection of programming tips and tricks
 ---
 
 -------------------------------------------------------------------------------

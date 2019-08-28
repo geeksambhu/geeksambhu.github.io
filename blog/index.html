@@ -1,42 +1,42 @@
 ---
-layout:         default
-title:          Blog
-description:    This is the part of my day to day learning
+title: Shiva gaire
+layout: default
+description: A blog by Shiva Gaire
 ---
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  {% include list-content.html %}
-  <p>{{ post.excerpt | strip_html | truncatewords:75 | default: post.description }} <br>
+{% include list-content.html %}
+<p>{{ post.excerpt | strip_html | truncatewords:75 | default: post.description }} <br>
 
   <i class="fa fa-clock-o"></i>
-  <span class="tag info" >
-  {% capture words %}
-  {{ post.content | number_of_words }}
-  {% endcapture %}
-  {% unless words contains "-" %}
-  {{ words | divided_by: 130 | append: " minute read" }}
-  {% endunless %}
+  <span class="tag info">
+    {% capture words %}
+    {{ post.content | number_of_words }}
+    {% endcapture %}
+    {% unless words contains "-" %}
+    {{ words | divided_by: 130 | append: " minute read" }}
+    {% endunless %}
   </span>
-    <a href="{{post.url}}">
-      <i class="fa fa-link"></i>
-      Read More...
-    </a>
-  </p>
-  <hr>
+  <a href="{{post.url}}">
+    <i class="fa fa-link"></i>
+    Read More...
+  </a>
+</p>
+<hr>
 {% endfor %}
 
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
   {% else %}
-    <span class="previous">Previous</span>
+  <span class="previous">Previous</span>
   {% endif %}
   <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  <a href="{{ paginator.next_page_path }}" class="next">Next</a>
   {% else %}
-    <span class="next ">Next</span>
+  <span class="next ">Next</span>
   {% endif %}
 </div>

@@ -6,6 +6,8 @@ tags:
 - Python,  Automation
 category: Python
 description: Organize and improve your Download directory using python programmatically.
+metadescription: Using python to organize files and folders. Organize and improve
+  your Download directory using python programmatically.
 ---
 
 ### Organize the Mess in your Download Directory with this Simple Python Script
