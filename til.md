@@ -196,3 +196,4 @@ Use `--exclude` as many times you like to exclude files and folders.
  cd <directory> #DIrectory in which you want to compress the files and folders
  tar --exclude='./node_modules' --exclude='.excluding_folder_name' --exclude='./test.py' --exclude='./env' -czvf excluded.tar.gz .
 ```
+###  Mon Sep 9 16:49:56 +0545 2019
