@@ -196,8 +196,14 @@ Use `--exclude` as many times you like to exclude files and folders.
  cd <directory> #DIrectory in which you want to compress the files and folders
  tar --exclude='./node_modules' --exclude='.excluding_folder_name' --exclude='./test.py' --exclude='./env' -czvf excluded.tar.gz .
 ```
-###  Mon Sep 9 16:49:56 +0545 2019
+###  Mon Nov 11  16:49:56 +0545 2019
 
-###  Tue Sep 10 09:51:20 +0545 2019
+### Removing Sensitive information from git
 
-###  Fri Nov 8 14:06:39 +0545 2019
+```bash
+  git filter-branch --force --index-filter \
+  "git rm --cached --ignore-unmatch -r <FILE_NAME_OR_FOLDER_IF_FOLDER_-r_AS_ARGS>" --prune-empty --tag-name-filter cat -- --all
+```
+
+This will Force Git to process, but not check out, the entire history of every branch and tag, Remove the specified file, as well as any empty commits generated as a 
+result, Add file or folder to `.gitignore` once removed to ensure you won't commit again 
