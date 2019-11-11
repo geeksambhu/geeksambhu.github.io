@@ -197,3 +197,7 @@ Use `--exclude` as many times you like to exclude files and folders.
  tar --exclude='./node_modules' --exclude='.excluding_folder_name' --exclude='./test.py' --exclude='./env' -czvf excluded.tar.gz .
 ```
 ###  Mon Sep 9 16:49:56 +0545 2019
+
+###  Tue Sep 10 09:51:20 +0545 2019
+
+###  Fri Nov 8 14:06:39 +0545 2019
