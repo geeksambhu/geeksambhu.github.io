@@ -207,3 +207,23 @@ Use `--exclude` as many times you like to exclude files and folders.
 
 This will Force Git to process, but not check out, the entire history of every branch and tag, Remove the specified file, as well as any empty commits generated as a 
 result, Add file or folder to `.gitignore` once removed to ensure you won't commit again 
+
+###  Wed Jan 22 13:26:47 +0545 2020
+
+### Solve CORS issue in Flask API call
+Do this in your response `@app.after_request` decorator
+
+```python
+@app.after_request
+def add_headers(response):
+    white_list_url= ['https://yourserverorigin.com/,'http://localhost:8000'] #List of URLs you want to allow
+    if request.headers['Origin'] in white_list_url:
+        response.headers.add('Content-Type', 'application/json')
+        response.headers.add('Access-Control-Allow-Origin', request.headers['Origin'] )
+        response.headers.add('Access-Control-Allow-Methods', 'GET')
+        response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+        response.headers.add('Access-Control-Expose-Headers', 'Content-Type,Content-Length,Authorization,X-Pagination')
+    return response
+
+```
+
