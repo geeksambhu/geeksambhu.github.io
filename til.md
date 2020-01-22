@@ -216,7 +216,7 @@ Do this in your response `@app.after_request` decorator
 ```python
 @app.after_request
 def add_headers(response):
-    white_list_url= ['https://yourserverorigin.com/,'http://localhost:8000'] #List of URLs you want to allow
+    white_list_url= ['https://yourserverorigin.com/','http://localhost:8000'] #List of URLs you want to allow
     if request.headers['Origin'] in white_list_url:
         response.headers.add('Content-Type', 'application/json')
         response.headers.add('Access-Control-Allow-Origin', request.headers['Origin'] )
@@ -226,4 +226,5 @@ def add_headers(response):
     return response
 
 ```
+
 
