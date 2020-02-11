@@ -1,7 +1,7 @@
 ---
-title: Curriculum Vitae
+title: Resume
 layout: page
-permalink: "/CV/"
+permalink: "/me/"
 ---
 
-[Download](./CV-ShivaGaire.pdf)
+[Download](./Resume-ShivaGaire.pdf)
