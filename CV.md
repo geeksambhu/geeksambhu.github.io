@@ -4,4 +4,4 @@ layout: page
 permalink: "/me/"
 ---
 
-[Download](./Resume-ShivaGaire.pdf)
+[Download](/Resume-ShivaGaire.pdf)
