@@ -239,3 +239,12 @@ mongodump --db <db_name> -o dump_`date "+%Y-%m-%dT%H:%M:%S%Z"`
 ```
 
 remember the backtick at start of "date" after dump and at the end
+
+###  Thu Dec 10 14:22:04 +0545 2020
+
+#### Collection Specific mongorestore command
+
+```bash
+mongorestore --db <db_name> --collection <collection_name> <dump_location>/<collection_name.bson>
+
+```
