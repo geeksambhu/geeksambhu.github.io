@@ -248,3 +248,11 @@ remember the backtick at start of "date" after dump and at the end
 mongorestore --db <db_name> --collection <collection_name> <dump_location>/<collection_name.bson>
 
 ```
+
+to restore all: Mongorestore
+
+```bash
+mongorestore <dump_location>
+
+```
+
