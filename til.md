@@ -228,3 +228,14 @@ def add_headers(response):
 ```
 
 
+
+###  Thu Dec 10 14:22:04 +0545 2020
+
+#### To take mongodump with timestamp:
+
+```bash 
+mongodump --db <db_name> -o dump_`date "+%Y-%m-%dT%H:%M:%S%Z"` 
+
+```
+
+remember the backtick at start of "date" after dump and at the end
