@@ -256,3 +256,25 @@ mongorestore <dump_location>
 
 ```
 
+
+###  Sat Feb 5 03:45:39 +0545 2022
+
+#### Learn ways to initialize vector in Rust
+    
+1. Using `vec!` macro 
+2. Using `new()` 
+    
+    ````rust
+    let mut vec = Vec::new();
+     ````
+3. Using `with_capacity` 
+
+   ````rust
+    let mut vec = Vec::with_capacity(10);
+     ````
+4. To sort vector using `sort_unstable` it uses https://github.com/orlp/pdqsort and this https://doc.rust-lang.org/std/vec/struct.Vec.html#method.sort_unstable
+
+    ````rust
+    let mut nums = vec![-1,-5,-3,1,2,-1];
+    nums.sort_unstable();
+    ````
