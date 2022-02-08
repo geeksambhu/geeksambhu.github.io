@@ -278,3 +278,12 @@ mongorestore <dump_location>
     let mut nums = vec![-1,-5,-3,1,2,-1];
     nums.sort_unstable();
     ````
+
+###  Tue Feb 8 23:28:16 +0545 2022
+### Rust: Declaring constant
+      
+        For constant declaration one must include `Data Types` and `const` doesn't allow to use `mut`. 
+
+      ```rust
+      const NUM:u8 =8;
+      ````
