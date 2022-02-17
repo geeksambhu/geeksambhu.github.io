@@ -287,3 +287,20 @@ mongorestore <dump_location>
       ```rust
       const NUM:u8 =8;
       ````
+
+###  Thu Feb 17 13:21:02 +0545 2022
+### Rust: Array slice
+
+   For slicing an array use type signature &[T]
+
+   ```Rust
+   #[test]
+    fn slice_out_of_array() {
+        let a = [1, 2, 3, 4, 5];
+
+        let nice_slice = &a[1..4];
+
+        assert_eq!([2, 3, 4], nice_slice)
+        
+        }
+   ```
