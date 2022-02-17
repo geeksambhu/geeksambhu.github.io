@@ -304,3 +304,11 @@ mongorestore <dump_location>
         
         }
    ```
+
+Tuple indexing in rust
+ access a tuple element directly by using a period (.) followed by the index of the value to access.
+  ```Rust
+  let numbers = (1, 2, 3);
+  let second = numbers.1 ; //2
+  ```
+  
